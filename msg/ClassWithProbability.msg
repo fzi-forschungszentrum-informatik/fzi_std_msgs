@@ -4,7 +4,7 @@
 # You can find a copy of this license in LICENSE in the top
 # directory of the source code.
 #
-# © Copyright 2016 FZI Forschungszentrum Informatik, Karlsruhe, Germany
+# © Copyright 2017 FZI Forschungszentrum Informatik, Karlsruhe, Germany
 # -- END LICENSE BLOCK ------------------------------------------------
 
 #----------------------------------------------------------------------
@@ -29,4 +29,4 @@
 float32 probability
 
 # identifier for the class
-uint32 class
+uint32 classification

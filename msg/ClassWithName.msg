@@ -4,7 +4,7 @@
 # You can find a copy of this license in LICENSE in the top
 # directory of the source code.
 #
-# © Copyright 2016 FZI Forschungszentrum Informatik, Karlsruhe, Germany
+# © Copyright 2017 FZI Forschungszentrum Informatik, Karlsruhe, Germany
 # -- END LICENSE BLOCK ------------------------------------------------
 
 #----------------------------------------------------------------------
@@ -36,7 +36,7 @@
 #
 
 # identifier for the class
-uint32 class
+uint32 classification
 
 # name of the class
 std_msgs/String name

@@ -4,7 +4,7 @@
 # You can find a copy of this license in LICENSE in the top
 # directory of the source code.
 #
-# © Copyright 2016 FZI Forschungszentrum Informatik, Karlsruhe, Germany
+# © Copyright 2017 FZI Forschungszentrum Informatik, Karlsruhe, Germany
 # -- END LICENSE BLOCK ------------------------------------------------
 
 #----------------------------------------------------------------------
@@ -21,12 +21,12 @@ project(fzi_std_msgs)
 # Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
   message_generation
-  message_runtime
   std_msgs
 )
 
 # Generate messages in the 'msg' folder
 add_message_files(
+  DIRECTORY msg
   FILES
   BoolStamped.msg
   Float64Array.msg
@@ -34,6 +34,7 @@ add_message_files(
   StringArray.msg
   TimeWithVariance.msg
   ClassWithProbability.msg
+  ClassWithName.msg
 )
 
 # Generate services in the 'srv' folder
